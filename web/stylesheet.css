@@ -1,0 +1,106 @@
+html{
+    color: #663c00;
+}
+
+body{
+    background-color: #fdf0c8;
+}
+.section{
+    text-align: center;
+    width: 600px;
+    border: solid 3px #fdffe0;
+    background-color: #f9d98f;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    border-radius: 20px;
+//box-shadow: rgba(112, 112, 112, 0.67) 15px 10px;
+}
+
+#mainTable{
+    margin-top: 50px;
+}
+tr{
+    margin-bottom: 30px;
+}
+th{
+    border-radius: 15px;
+    font-weight: normal;
+}
+#header2{
+    padding: 10px;
+}
+#resTable{
+    background-color: #ffc863;
+    width: 80%;
+}
+table{
+    background-color: #ff8b17;
+    border-radius: 25px;
+    border-collapse: separate;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    width: 50%;
+    font-size: 20px;
+    font-family: fantasy, cursive;
+}
+canvas{
+    background-color: #ffedb7;
+    border-radius: 15px;
+}
+input{
+    background-color: #ffc863;
+    border-radius: 5px;
+    border-style: none;
+    font-family: fantasy;
+    font-size: 18px;
+    color: #663c00;
+    margin: 10px;
+    width: 200px;
+}
+option{
+    background-color: #ffc863;
+    border-radius: 5px;
+
+}
+
+select {
+    border: 0px solid #ffe19f;
+    border-radius: 5px;
+    text-align: center;
+    width: 80px;
+}
+
+select:hover{
+    background-color: #ffe19f;
+
+}
+.TableHeader td {
+    background-color: #e1a017;
+    border-radius: 10px;
+}
+
+
+
+.line:hover{
+    background-color: #ffd591;
+    border-radius: 10px;
+}
+
+.chooser{
+//width: 30px;
+    background-color: #ffc863;
+    border-radius: 15px;
+    text-align: center;
+}
+.errormsg{
+    color: darkred;
+    font-size: 16px;
+}
+
+#tdTable{
+    overflow: auto;
+    max-height: 600px;
+}
